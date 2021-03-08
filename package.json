@@ -10,7 +10,14 @@
     "node": ">= 10.13.0"
   },
   "files": [
-    "dist"
+    "bin",
+    "src",
+    "babel.config.json",
+    "declarations.d.ts",
+    "index.js",
+    "package.json",
+    "tsconfig.json",
+    "README.md"
   ],
   "scripts": {
     "dev": "amberbuilder development",
