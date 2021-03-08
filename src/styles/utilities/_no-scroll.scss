@@ -1,0 +1,5 @@
+.no-scroll {
+    overflow: hidden;
+    @include force-width(100vw);
+    @include force-height(100vh);
+  }

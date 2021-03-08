@@ -1,0 +1,25 @@
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+// body {
+//   text-align: right;
+//   font-family: $font-family-base;
+//   font-size: $font-size-base;
+//   color: $body-color-dark;
+//   background-color: $body-bg-light;
+//   direction: rtl;
+// }
+
+img {
+  max-width: 100%;
+}

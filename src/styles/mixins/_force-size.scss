@@ -1,0 +1,30 @@
+@mixin force-height($height) {
+    height: $height;
+    min-height: $height;
+    max-height: $height;
+}
+
+@mixin force-width($width) {
+    width: $width;
+    min-width: $width;
+    max-width: $width;
+}
+
+@mixin force-square($size) {
+    @include force-height($size);
+    @include force-width($size);
+}
+
+@mixin force-circle($diameter) {
+    @include force-square($diameter);
+    border-radius: 50%;
+}
+
+@mixin remove-force() {
+    height: initial;
+    min-height: initial;
+    max-height: initial;
+    width: initial;
+    min-width: initial;
+    max-width: initial;
+}
